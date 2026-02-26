@@ -15,7 +15,8 @@ fetch( dataSource )
     // get container for data
     const dataContainer = document.querySelector(".dataContainer");
 
-    // loop through data
+    // loop through the arryy of records
+    // ✅ Check-Check: Are you accessing an array of records?
     collection.forEach( record => {
       
       // template
