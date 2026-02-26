@@ -3,23 +3,21 @@ console.log('👍 JS Connected');
 // Scripting
 
 // Data source
-//const url = "";
+const dataSource = "";
 
 // Get data
 fetch(url)
   .then( response  => response.json())
-  .then( data  => {
+  .then( collection  => {
     
     // check-check: is the data good?
-    console.log(data);
-    console.log(data.Name);
-    console.log(data.Image);
+    console.log( collection );
 
     // get container for data
     const dataContainer = document.querySelector(".dataContainer");
 
     // loop through data
-    data.forEach( student => {
+    collection.forEach( record => {
       
       // template
       const template = ``;
