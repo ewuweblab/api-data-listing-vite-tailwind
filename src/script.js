@@ -1,16 +1,15 @@
+// ✅ Check-Check: Is JS Connected?
 console.log('👍 JS Connected');
 
-// Scripting
-
-// Data source
+// ✅ Check-Check: Is data source accessible?
 const dataSource = "";
 
 // Get data
-fetch(url)
+fetch( dataSource )
   .then( response  => response.json())
   .then( collection  => {
     
-    // check-check: is the data good?
+    // ✅ Check-Check: Is the data good?
     console.log( collection );
 
     // get container for data

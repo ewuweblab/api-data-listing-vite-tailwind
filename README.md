@@ -3,7 +3,6 @@
 > Manage the website. Not the Content (or data).
 
 # Goals
-
 1. **Fetching Data from APIs** - Learn to use the `fetch()` API to retrieve JSON data from external sources and handle asynchronous operations with promises
 
 2. **Dynamic DOM Manipulation** - Practice selecting elements with `querySelector()`, creating HTML with template literals, and inserting content dynamically using `insertAdjacentHTML()`
@@ -13,6 +12,10 @@
 4. **Modern Build Tools (Vite)** - Understand how to use Vite for fast development, hot module replacement, and building optimized production bundles
 
 5. **Utility-First CSS (Tailwind)** - Learn to style applications using Tailwind CSS's utility classes instead of writing custom CSS
+
+# How to run the project?
+* Preview on localhost i.e. Codespases: `npm run dev`
+* Build for production and deployment: `npm run build`
 
 ## Tech Stack
 - Node
